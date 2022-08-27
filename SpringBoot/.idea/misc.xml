@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch09-springboot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/ch02-springboot-first/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-springboot-three/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-springboot-second/pom.xml" />
+        <option value="$PROJECT_DIR$/ch14-springboot-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/ch17-springboot-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/ch13-springboot-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/ch20-springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10-springboot-container/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-springboot-custom-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/ch18-springboot-mapperscan/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-springboot-environment/pom.xml" />
+        <option value="$PROJECT_DIR$/ch12-springboot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/ch19-springboot-transactional/pom.xml" />
+        <option value="$PROJECT_DIR$/ch15-springboot-character-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-springboot-multi-environment/pom.xml" />
+        <option value="$PROJECT_DIR$/ch16-springboot-character-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05-springboot-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/ch11-springboot-commandlinetunner/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

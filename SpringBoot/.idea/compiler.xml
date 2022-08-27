@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/ch04-springboot-three/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch08-springboot-custom-yml" />
+        <module name="ch02-springboot-first" />
+        <module name="ch18-springboot-mapperscan" />
+        <module name="ch14-springboot-filter" />
+        <module name="ch04-springboot-three" />
+        <module name="ch20-springboot-restful" />
+        <module name="ch15-springboot-character-filter" />
+        <module name="ch11-springboot-commandlinetunner" />
+        <module name="ch19-springboot-transactional" />
+        <module name="ch07-springboot-multi-environment" />
+        <module name="ch17-springboot-mapper" />
+        <module name="ch05-springboot-mvc" />
+        <module name="ch16-springboot-character-properties" />
+        <module name="ch06-springboot-environment" />
+        <module name="ch09-springboot-jsp" />
+        <module name="ch12-springboot-interceptor" />
+        <module name="ch03-springboot-second" />
+        <module name="ch13-springboot-servlet" />
+        <module name="ch10-springboot-container" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="app (3)" target="11" />
+      <module name="ch02-springboot-first" target="11" />
+      <module name="ch03-springboot-second" target="11" />
+      <module name="ch04-springboot-three" target="17" />
+      <module name="ch05-springboot-mvc" target="11" />
+      <module name="ch06-springboot-environment" target="11" />
+      <module name="ch07-springboot-multi-environment" target="11" />
+      <module name="ch08-springboot-custom-yml" target="11" />
+      <module name="ch09-springboot-jsp" target="11" />
+      <module name="ch10-springboot-container" target="11" />
+      <module name="ch11-springboot-commandlinerunner" target="11" />
+      <module name="ch11-springboot-commandlinetunner" target="11" />
+      <module name="ch12-springboot-interceptor" target="11" />
+      <module name="ch13-springboot-servlet" target="11" />
+      <module name="ch14-springboot-filter" target="11" />
+      <module name="ch15-springboot-character-filter" target="11" />
+      <module name="ch16-springboot-character-properties" target="11" />
+      <module name="ch17-springboot-mapper" target="11" />
+      <module name="ch18-springboot-mapperscan" target="11" />
+      <module name="ch19-springboot-transactional" target="11" />
+      <module name="ch20-springboot-restful" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app (3)" options="-parameters" />
+      <module name="ch02-springboot-first" options="-parameters" />
+      <module name="ch03-springboot-second" options="-parameters" />
+      <module name="ch04-springboot-three" options="-parameters" />
+      <module name="ch05-springboot-mvc" options="-parameters" />
+      <module name="ch06-springboot-environment" options="-parameters" />
+      <module name="ch07-springboot-multi-environment" options="-parameters" />
+      <module name="ch08-springboot-custom-yml" options="-parameters" />
+      <module name="ch09-springboot-jsp" options="-parameters" />
+      <module name="ch10-springboot-container" options="-parameters" />
+      <module name="ch11-springboot-commandlinerunner" options="-parameters" />
+      <module name="ch11-springboot-commandlinetunner" options="-parameters" />
+      <module name="ch12-springboot-interceptor" options="-parameters" />
+      <module name="ch13-springboot-servlet" options="-parameters" />
+      <module name="ch14-springboot-filter" options="-parameters" />
+      <module name="ch15-springboot-character-filter" options="-parameters" />
+      <module name="ch16-springboot-character-properties" options="-parameters" />
+      <module name="ch17-springboot-mapper" options="-parameters" />
+      <module name="ch18-springboot-mapperscan" options="-parameters" />
+      <module name="ch19-springboot-transactional" options="-parameters" />
+      <module name="ch20-springboot-restful" options="-parameters" />
+    </option>
+  </component>
+</project>
