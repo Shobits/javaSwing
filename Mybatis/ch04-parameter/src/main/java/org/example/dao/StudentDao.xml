@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentDao">
+    <!--parameterType: 指定 dao接口形参的类型
+                        这个属性的值可以使用 Java类型的全限定名称或者 mybatis定义的别名
+        mybatis执行的 sql语句： select id, name, age from student where id = ?
+        ? 是占位符，使用 jdbc中的 PreparedStatement 执行这样的 sql 语句
+        1. 全限定名称 parameterType="java.lang.Integer"
+        2. 别名
+    -->
+    <select id="selectStuById"
+            parameterType="int"
+            resultType="Student">
+        select id, name, age
+        from student
+        where id = #{stuId}
+    </select>
+</mapper>

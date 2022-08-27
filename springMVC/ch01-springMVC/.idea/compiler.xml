@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch04-return-result" />
+        <module name="ch07-path" />
+        <module name="ch08-forward-redirect" />
+        <module name="ch10-interceptor" />
+        <module name="ch01-springMVC" />
+        <module name="ch12-permissioninterceptor" />
+        <module name="ch03-receive-param" />
+        <module name="ch06-SSM" />
+        <module name="ch11-interceptor2" />
+        <module name="ch02-requestMapping" />
+        <module name="ch13-work" />
+        <module name="ch05-url-pattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="ch09-excption-handler" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

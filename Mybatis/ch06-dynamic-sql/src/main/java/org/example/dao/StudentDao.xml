@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentDao">
+    <!--定义代码片段-->
+    <sql id="selectStudent">
+        select *
+        from student
+    </sql>
+    <sql id="studentFieldList">
+        id
+        ,name,age
+    </sql>
+    <!--if
+        test：适用对象的属性值作为条件
+    -->
+    <select id="selectIf" resultType="org.example.domain.Student">
+        <include refid="selectStudent"/>
+        where id = -1
+        <if test="name != null and name != ''">
+            or name = #{name}
+        </if>
+        <if test="age > 0">
+            or age = #{age}
+        </if>
+    </select>
+
+    <select id="selectWhere" resultType="org.example.domain.Student">
+        select
+        <include refid="studentFieldList"/>
+        from student
+        <where>
+            <if test="name != null and name != ''">
+                name = #{name}
+            </if>
+            <if test="age > 0">
+                or age = #{age}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectForEachOne" resultType="org.example.domain.Student">
+        SELECT *
+        FROM student
+        WHERE id IN
+        <if test="list != null and list.size > 0">
+            <foreach collection="list"
+                     open="("
+                     close=")"
+                     separator=","
+                     item="myId">
+                #{myId}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectForEachTwo" resultType="org.example.domain.Student">
+        select * from student
+        <if test="list != null and list.size > 0">
+            where id in
+            <foreach collection="list"
+                     open="("
+                     close=")"
+                     separator=","
+                     item="stu">
+                #{stu.id}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectAllStudent" resultType="org.example.domain.Student">
+        select *
+        from student
+        order by id
+    </select>
+</mapper>

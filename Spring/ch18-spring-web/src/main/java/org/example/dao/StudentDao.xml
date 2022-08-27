@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentDao">
+    <insert id="insertStudent">
+        insert into student(name, age)
+        values (#{stuName}, #{stuAge})
+    </insert>
+
+    <!--定义列和属性对应的关系-->
+    <resultMap id="studentMap" type="org.example.domain.Student">
+        <id column="id" property="stuId"/>
+        <result column="name" property="stuName"/>
+        <result column="age" property="stuAge"/>
+    </resultMap>
+
+    <select id="selectById" resultMap="studentMap">
+        select id, name, age
+        from student
+        where id = #{studentId}
+    </select>
+</mapper>
