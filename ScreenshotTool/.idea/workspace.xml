@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4462a7a-ee73-4c40-9baf-1bd7fcfb60cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch01-first/ch01-first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch02-dao/ch02-dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch03-proxy-dao/ch03-proxy-dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch04-parameter/ch04-parameter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch05-result/ch05-result.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/ch06-dynamic-sql/ch06-dynamic-sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/springMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/ch04-springboot-three/ch04-springboot-three.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/ch04-springboot-three/ch04-springboot-three.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/ch20-springboot-restful/src/main/java/com/example/controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/ch20-springboot-restful/src/main/java/com/example/controller/MyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/ch20-springboot-restful/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/ch20-springboot-restful/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/.idea/springBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/.idea/Mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2EA2s4MMpvk27gzeW6mnm3cV5Cw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79295/IdeaProjects/ScreenshotTool/src/main/java/controller&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK 位置&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79295\IdeaProjects\ScreenshotTool\src\main\java\controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ScrollPaneDemo">
+    <configuration name="PanelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.controller.PanelDemo" />
+      <module name="ScreenshotTool" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=GBK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrollPaneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.controller.ScrollPaneDemo" />
+      <module name="ScreenshotTool" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=gbk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PanelDemo" />
+      <item itemvalue="Application.ScrollPaneDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScrollPaneDemo" />
+        <item itemvalue="Application.PanelDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4462a7a-ee73-4c40-9baf-1bd7fcfb60cb" name="Changes" comment="" />
+      <created>1662024271464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662024271464</updated>
+      <workItem from="1662024272702" duration="606000" />
+      <workItem from="1662024958257" duration="39000" />
+      <workItem from="1662025042050" duration="638000" />
+      <workItem from="1662080509761" duration="1173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

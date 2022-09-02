@@ -3,6 +3,10 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ch25-springboot-war" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +32,14 @@
         <option value="$PROJECT_DIR$/ch16-springboot-character-properties/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-springboot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/ch11-springboot-commandlinetunner/pom.xml" />
+        <option value="$PROJECT_DIR$/ch21-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/ch22-interface-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ch23-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/ch24-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ch25-springboot-war/pom.xml" />
+        <option value="$PROJECT_DIR$/ch26-springboot-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/ch27-thymeleaf-first/pom.xml" />
+        <option value="$PROJECT_DIR$/ch28-thymeleaf-course/pom.xml" />
       </list>
     </option>
   </component>

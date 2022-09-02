@@ -40,6 +40,15 @@
     <file url="file://$PROJECT_DIR$/ch19-springboot-transactional/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch20-springboot-restful/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch20-springboot-restful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch21-springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-interface-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-interface-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch23-service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch24-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch25-springboot-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch26-springboot-jar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch27-thymeleaf-first/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch28-thymeleaf-course/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
