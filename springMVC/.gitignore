@@ -1,0 +1,7 @@
+# Project exclude paths
+/ch01-springMVC/target/
+/ch02-requestMapping/target/
+/ch03-receive-param/target/
+/ch08-forward-redirect/target/
+/ch09-excption-handler/target/
+/ch10-interceptor/target/

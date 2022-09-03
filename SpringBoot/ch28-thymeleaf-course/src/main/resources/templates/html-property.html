@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>属性</title>
+    <script type="text/javascript" th:src="@{/js/jquery-3.6.0.js}"></script>
+</head>
+<body>
+<div>
+    <h3>属性使用，在 html 元素的属性上加入 th</h3>
+    <from th:action="@{/loginServlet}" th:method="${methodAttr}">
+        <input th:type="text" th:name="${paraname}" th:value="${uservalue}"><br>
+        <input th:type="button" id="btn" th:onclick="btnClick()" value="按钮">
+    </from>
+
+    <p th:style="${textColor}">这是模板的例子</p>
+</div>
+</body>
+<script type="text/javascript">
+    function btnClick() {
+        alert('按钮的点击事件');
+    }
+
+    $(()=>{
+        $("#btn").click(()=>{
+            alert("jQuery alert...");
+        })
+    })
+</script>
+</html>

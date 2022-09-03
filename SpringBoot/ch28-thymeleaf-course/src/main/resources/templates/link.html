@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>链接表达式</title>
+</head>
+<body>
+<h3>链接绝对路径</h3>
+<a th:href="@{https://www.baidu.com}">链接到百度</a>
+<br>
+<h3>链接相对路径</h3>
+<a th:href="@{/tpl/queryAccount}">相对路径，没有参宿</a>
+</div>
+<br>
+<h3>链接相对路径，使用字符串链接传递参数</h3>
+<a th:href="@{'/tpl/queryAccount?id='+${userId}}">获取 model 中的数据</a>
+</div>
+<h3>推荐使用的传参方式</h3>
+<a th:href="@{/tpl/queryAccount(id=${userId})}">传参数</a> <br>
+<a th:href="@{/tpl/queryUser(name='lisi',age=20)}">传多参数</a>
+</body>
+</html>
